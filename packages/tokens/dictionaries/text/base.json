@@ -1,0 +1,8 @@
+{
+  "font-family": {
+    "$type": "fontFamily",
+    "brand": {
+      "$value": "Gotham"
+    }
+  }
+}

@@ -1,19 +1,22 @@
 {
-  "source": ["tokens/**/*.json"],
+  "source": ["dictionaries/**/*.json"],
   "platforms": {
     "css": {
       "transformGroup": "css",
       "buildPath": "dist/css/",
+      "prefix": "pgds",
       "files": [
         {
           "destination": "_tokens.css",
           "format": "css/variables"
         }
-      ]
+      ],
+      "expand": true
     },
     "scss": {
       "transformGroup": "scss",
       "buildPath": "dist/scss/",
+      "prefix": "pgds",
       "files": [
         {
           "destination": "_tokens.scss",
@@ -21,19 +24,10 @@
         }
       ]
     },
-    "less": {
-      "transformGroup": "less",
-      "buildPath": "dist/less/",
-      "files": [
-        {
-          "destination": "_tokens.less",
-          "format": "less/variables"
-        }
-      ]
-    },
     "js": {
       "transformGroup": "js",
       "buildPath": "dist/js/",
+      "prefix": "pgds",
       "files": [
         {
           "destination": "tokens.js",
@@ -44,10 +38,24 @@
     "json": {
       "transformGroup": "web",
       "buildPath": "dist/json/",
-      "files": [{
-        "destination": "tokens.json",
-        "format": "json/flat"
-      }]
+      "prefix": "pgds",
+      "files": [
+        {
+          "destination": "tokens.json",
+          "format": "json/flat"
+        }
+      ]
+    },
+    "figma": {
+      "transformGroup": "web",
+      "buildPath": "dist/figma/",
+      "prefix": "pgds",
+      "files": [
+        {
+          "destination": "figma-tokens.json",
+          "format": "json/flat"
+        }
+      ]
     }
   }
 }

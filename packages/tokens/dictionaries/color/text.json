@@ -1,0 +1,30 @@
+{
+  "color": {
+    "text": {
+      "primary": {
+        "$value": "{color.base.black.normal}"
+      },
+      "secondary": {
+        "$value": "{color.base.gold.normal}"
+      },
+      "accent": {
+        "$value": "{color.base.purple.normal}"
+      },
+      "error": {
+        "$value": "{color.base.pink.dark}"
+      },
+      "warning": {
+        "$value": "{color.base.yellow.normal}"
+      },
+      "success": {
+        "$value": "{color.base.turquoise.normal}"
+      },
+      "info": {
+        "$value": "{color.base.blue.normal}"
+      },
+      "disabled": {
+        "$value": "{color.base.gray.normal}"
+      }
+    }
+  }
+}

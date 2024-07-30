@@ -1,0 +1,43 @@
+{
+  "font": {
+    "size": {
+      "base": {
+        "$value": "16px"
+      },
+      "heading": {
+        "h1": {
+          "$value": "3.5rem"
+        },
+        "h2": {
+          "$value": "3rem"
+        },
+        "h3": {
+          "$value": "2rem"
+        },
+        "h4": {
+          "$value": "1.5rem"
+        },
+        "h5": {
+          "$value": "1.25rem"
+        },
+        "h6": {
+          "$value": "1rem"
+        }
+      },
+      "body": {
+        "1": {
+          "$value": "1rem"
+        },
+        "2": {
+          "$value": "0.875rem"
+        }
+      },
+      "caption": {
+        "$value": "0.75rem"
+      },
+      "button": {
+        "$value": "1rem"
+      }
+    }
+  }
+}

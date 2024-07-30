@@ -3,9 +3,10 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "type": "module",
   "scripts": {
-    "clean": "style-dictionary clean",
-    "build": "style-dictionary build"
+    "clean": "rm -rf dist",
+    "build": "yarn clean && style-dictionary build --config ./config.mjs"
   },
   "devDependencies": {
     "style-dictionary": "^4.0.0"

@@ -1,0 +1,72 @@
+{
+  "color": {
+    "base": {
+      "black": {
+        "normal": {
+          "$value": "#212129"
+        }
+      },
+      "gold": {
+        "light": {
+          "$value": "#DCD1B5"
+        },
+        "normal": {
+          "$value": "#9D833E"
+        }
+      },
+      "white": {
+        "$value": "#ffffff"
+      },
+      "gray": {
+        "normal": {
+          "$value": "#E7E7E7"
+        }
+      },
+      "blue": {
+        "normal": {
+          "$value": "#OEE2DA"
+        },
+        "dark": {
+          "$value": "#OEBAC5"
+        }
+      },
+      "pink": {
+        "normal": {
+          "$value": "#D93D7A"
+        },
+        "dark": {
+          "$value": "#D52A6C"
+        }
+      },
+      "turquoise": {
+        "normal": {
+          "$value": "#00B0A3"
+        }
+      },
+      "purple": {
+        "normal": {
+          "$value": "#7030A0"
+        },
+        "light": {
+          "$value": "#B96EFF"
+        }
+      },
+      "orange": {
+        "normal": {
+          "$value": "#FC8B3C"
+        },
+        "light": {
+          "$value": "#FFA178"
+        }
+      },
+      "yellow": {
+        "normal": {
+          "$value": "#FFD511"
+        },
+        "light": {
+          "$value": "#FFEE5C"
+        }
+      }
+    }
+  }
+}

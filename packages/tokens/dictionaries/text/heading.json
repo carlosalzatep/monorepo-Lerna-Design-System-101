@@ -1,0 +1,42 @@
+{
+  "text": {
+    "heading": {
+      "h1": {
+        "mixin": true,
+        "$value": {
+          "font-style": "normal",
+          "font-weight": "700",
+          "font-size": "{font.size.heading.h1}",
+          "line-height": "{font.size.heading.h1}"
+        }
+      },
+      "h2": {
+        "mixin": true,
+        "$value": {
+          "font-style": "normal",
+          "font-weight": "700",
+          "font-size": "{font.size.heading.h2}",
+          "line-height": "{font.size.heading.h2}"
+        }
+      },
+      "h3": {
+        "mixin": true,
+        "$value": {
+          "font-style": "normal",
+          "font-weight": "700",
+          "font-size": "{font.size.heading.h3}",
+          "line-height": "{font.size.heading.h3}"
+        }
+      },
+      "h4": {
+        "mixin": true,
+        "$value": {
+          "font-style": "normal",
+          "font-weight": "700",
+          "font-size": "{font.size.heading.h4}",
+          "line-height": "{font.size.heading.h4}"
+        }
+      }
+    }
+  }
+}

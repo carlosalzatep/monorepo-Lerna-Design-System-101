@@ -1,7 +1,8 @@
 import StyleDictionary from "style-dictionary";
 import scssMixins from "./formats/scssMixins.mjs";
 
-const buildPath = "dist/";
+const buildPath = (folderName) => `dist/${folderName}/`;
+const prefix = "pgds";
 
 StyleDictionary.registerFormat(scssMixins);
 
@@ -10,8 +11,8 @@ export default {
   platforms: {
     figma: {
       transformGroup: "web",
-      buildPath: buildPath,
-      prefix: "pgds",
+      buildPath: buildPath('figma'),
+      prefix: prefix,
       files: [
         {
           destination: "figma-tokens.json",
@@ -22,8 +23,8 @@ export default {
     },
     js: {
       transformGroup: "js",
-      buildPath: buildPath,
-      prefix: "pgds",
+      buildPath: buildPath('js'),
+      prefix: prefix,
       files: [
         {
           destination: "tokens.mjs",
@@ -33,8 +34,8 @@ export default {
     },
     css: {
       transformGroup: "css",
-      buildPath: buildPath,
-      prefix: "pgds",
+      buildPath: buildPath('css'),
+      prefix: prefix,
       files: [
         {
           destination: "_tokens.css",
@@ -46,8 +47,8 @@ export default {
     scss: {
       transforms:
         StyleDictionary.hooks.transformGroups.scss.concat("color/rgb"),
-      buildPath: buildPath,
-      prefix: "pgds",
+      buildPath: buildPath('scss'),
+      prefix: prefix,
       files: [
         {
           destination: "_tokens.scss",

@@ -2,8 +2,7 @@ import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
 
-import { DspButton } from "@pg.dsp/components";
-import "@pg.dsp/tokens/dist/css/_tokens.css";
+import { PgdsButton } from "@pg.dsp/components";
 
 function App() {
   return (
@@ -17,13 +16,13 @@ function App() {
         </a>
       </div>
       <h1>Vite + React (Playground)</h1>
-      <div className="card">
-        <h2 style={{ color: "var(--colors-orange-500)" }}>
+      <div>
+        <h2 style={{ color: "var(--pgds-color-base-orange-normal)" }}>
           Importing and using a React component from the Design system Package
         </h2>
-        <DspButton label="Example button from @pg.dsp package" />
+        <PgdsButton label="Example button from @pg.dsp package" />
       </div>
-      <p className="read-the-docs">
+      <p className="footer">
         Click on the Vite and React logos to learn more
       </p>
     </>

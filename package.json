@@ -8,13 +8,21 @@
   "main": "index.js",
   "private": true,
   "workspaces": {
-    "packages": [ "packages/*", "playgrounds/*" ]
+    "packages": [
+      "packages/*",
+      "playgrounds/*"
+    ]
+  },
+  "engines": {
+    "node": ">=20.16.0",
+    "yarn": ">=1.22.22"
   },
   "scripts": {
-    "clean": "yarn lerna run clean",
+    "clean": "yarn lerna clean && lerna run clean",
     "build": "yarn lerna run build"
   },
   "devDependencies": {
     "lerna": "^8.1.6"
-  }
+  },
+  "packageManager": "yarn@1.22.22"
 }

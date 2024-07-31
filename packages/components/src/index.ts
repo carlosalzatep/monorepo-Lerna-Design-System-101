@@ -1,1 +1,1 @@
-export { default as DspButton } from "./atoms/Button/DspButton";
+export { default as PgdsButton } from "./atoms/Button/PgdsButton";

@@ -1,0 +1,9 @@
+@import "@pg.dsp/tokens/dist/scss/_tokens";
+
+.pgds-button {
+    background-color: $pgds-color-base-gold-light;
+    border: 1px solid $pgds-color-base-gold-normal;
+    color: $pgds-color-base-black-normal;
+    font-size: $pgds-font-size-body-1;
+    padding: 1em;
+}

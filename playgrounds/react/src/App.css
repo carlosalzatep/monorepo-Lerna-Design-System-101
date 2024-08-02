@@ -6,11 +6,15 @@
   text-align: center;
 }
 
+ul {
+  list-style: none;
+}
+
 h2 {
   font-size: var(--pgds-text-heading-h2-font-size);
 }
 
-.pgds-button {
+.class1 {
   border: 5px solid #000;
 }
 

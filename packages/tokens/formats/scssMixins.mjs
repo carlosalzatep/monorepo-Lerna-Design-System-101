@@ -7,6 +7,15 @@ const mixinString = (name, styleProps) => {
   ${styleProps.join("\n  ")}
 }`;
 };
+
+/**
+ * Parses the style properties of a mixin and generates the mixin string.
+ * 
+ * @param {Object} mixin - The mixin object.
+ * @param {string} mixin.name - The name of the mixin.
+ * @param {Object} mixin.$value - The style properties of the mixin.
+ * @returns {string} The SCSS mixin string.
+ */
 const parseMixinStyleProps = (mixin) => {
   const { name, $value: value } = mixin;
   const styleProps = Object.keys(value || {}).map(
@@ -24,6 +33,8 @@ export default {
       parseMixinStyleProps(mixin),
     );
 
-    return mixinPropValues.join("\n\n");
+    return `// Do not edit directly, this file was auto-generated.
+      ${mixinPropValues.join("\n\n")}
+    `;
   },
 };

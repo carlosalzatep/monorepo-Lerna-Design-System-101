@@ -20,14 +20,17 @@
       "gray": {
         "normal": {
           "$value": "#E7E7E7"
+        },
+        "dark": {
+          "$value": "#979797"
         }
       },
       "blue": {
         "normal": {
-          "$value": "#OEE2DA"
+          "$value": "#0EE2DA"
         },
         "dark": {
-          "$value": "#OEBAC5"
+          "$value": "#0EBAC5"
         }
       },
       "pink": {
@@ -52,19 +55,19 @@
         }
       },
       "orange": {
-        "normal": {
-          "$value": "#FC8B3C"
-        },
         "light": {
           "$value": "#FFA178"
+        },
+        "normal": {
+          "$value": "#FC8B3C"
         }
       },
       "yellow": {
-        "normal": {
-          "$value": "#FFD511"
-        },
         "light": {
           "$value": "#FFEE5C"
+        },
+        "normal": {
+          "$value": "#FFD511"
         }
       }
     }

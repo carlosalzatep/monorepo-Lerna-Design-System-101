@@ -1,6 +1,6 @@
 {
-  "icon": {
-    "size": {
+  "size": {
+    "icon": {
       "x-small": {
         "$value": "16px"
       },

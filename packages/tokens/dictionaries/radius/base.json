@@ -1,0 +1,13 @@
+{
+  "radius": {
+    "soft": {
+      "$value": "0.2rem"
+    },
+    "softer": {
+      "$value": "0.4rem"
+    },
+    "round": {
+      "$value": "999.9rem"
+    }
+  }
+}

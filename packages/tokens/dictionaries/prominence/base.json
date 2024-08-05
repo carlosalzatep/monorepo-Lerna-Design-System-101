@@ -1,0 +1,19 @@
+{
+  "prominence": {
+    "flat": {
+      "$value": "0 0 0 0 {color.base.gray.dark}"
+    },
+    "raised": {
+      "$value": "0 0.125rem 0.125rem 0 {color.base.gray.dark}"
+    },
+    "elevated": {
+      "$value": "0 0.25rem 0.25rem 0 {color.base.gray.dark}"
+    },
+    "floating": {
+      "$value": "0 0.5rem 0.5rem 0 {color.base.gray.dark}"
+    },
+    "lifted": {
+      "$value": "0 0.75rem 0.75rem 0 {color.base.gray.dark}"
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "color": {
+    "input": {
+      "background": {
+        "default": {
+          "$value": "{color.base.white}"
+        },
+        "disabled": {
+          "$value": "{color.base.gray.normal}"
+        },
+        "error": {
+          "$value": "{color.base.white}"
+        }
+      },
+      "text": {
+        "default": {
+          "$value": "{color.base.black.normal}"
+        },
+        "disabled": {
+          "$value": "{color.base.gray.dark}"
+        },
+        "error": {
+          "$value": "{color.base.pink.normal}"
+        }
+      },
+      "label": {
+        "default": {
+          "$value": "{color.base.black.normal}"
+        },
+        "disabled": {
+          "$value": "{color.base.gray.dark}"
+        },
+        "error": {
+          "$value": "{color.base.pink.normal}"
+        }
+      }
+    }
+  }
+}

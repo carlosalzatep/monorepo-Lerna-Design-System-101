@@ -1,0 +1,57 @@
+{
+  "color": {
+    "button": {
+      "background": {
+        "default": {
+          "$value": "{color.base.white}"
+        },
+        "primary": {
+          "$value": "{color.base.gold.normal}"
+        },
+        "secondary": {
+          "$value": "{color.base.black.normal}"
+        },
+        "accent": {
+          "$value": "{color.base.purple.normal}"
+        },
+        "tertiary": {
+          "$value": "{color.base.gray.normal}"
+        }
+      },
+      "border": {
+        "default": {
+          "$value": "{color.base.black.normal}"
+        },
+        "primary": {
+          "$value": "{color.base.gold.normal}"
+        },
+        "secondary": {
+          "$value": "{color.base.black.normal}"
+        },
+        "accent": {
+          "$value": "{color.base.purple.normal}"
+        },
+        "tertiary": {
+          "$value": "{color.base.black.normal}"
+        }
+      },
+      "text": {
+        "default": {
+          "$value": "{color.base.black.normal}"
+        },
+        "primary": {
+          "$value": "{color.base.white}"
+        },
+        "secondary": {
+          "$value": "{color.base.white}"
+        },
+        "accent": {
+          "$value": "{color.base.white}"
+        },
+        "tertiary": {
+          "$value": "{color.base.black.normal}"
+        }
+      }
+    }
+  }
+}

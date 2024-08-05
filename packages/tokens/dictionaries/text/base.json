@@ -1,8 +1,10 @@
 {
-  "font-family": {
-    "$type": "fontFamily",
-    "brand": {
-      "$value": "Gotham"
+  "text": {
+    "font-family": {
+      "$type": "fontFamily",
+      "brand": {
+        "$value": "Gotham"
+      }
     }
   }
 }

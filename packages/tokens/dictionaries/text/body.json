@@ -1,0 +1,24 @@
+{
+  "text": {
+    "body": {
+      "normal": {
+        "mixin": true,
+        "$value": {
+          "font-style": "normal",
+          "font-weight": "400",
+          "font-size": "{size.font.body.01}",
+          "line-height": "{size.font.body.01}"
+        }
+      },
+      "bold": {
+        "mixin": true,
+        "$value": {
+          "font-style": "normal",
+          "font-weight": "700",
+          "font-size": "{size.font.body.01}",
+          "line-height": "{size.font.body.01}"
+        }
+      }
+    }
+  }
+}

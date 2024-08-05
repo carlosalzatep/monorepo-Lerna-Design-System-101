@@ -1,0 +1,37 @@
+{
+  "color": {
+    "background": {
+      "primary": {
+        "$value": "{color.base.white}"
+      },
+      "secondary": {
+        "$value": "{color.base.gray.normal}"
+      },
+      "brand": {
+        "01": {
+          "$value": "{color.base.gold.normal}"
+        },
+        "02": {
+          "$value": "{color.base.gold.light}"
+        }
+      },
+      "message": {
+        "default": {
+          "$value": "{color.base.gray.normal}"
+        },
+        "info": {
+          "$value": "{color.base.blue.normal}"
+        },
+        "success": {
+          "$value": "{color.base.turquoise.normal}"
+        },
+        "warning": {
+          "$value": "{color.base.yellow.light}"
+        },
+        "error": {
+          "$value": "{color.base.pink.normal}"
+        }
+      }
+    }
+  }
+}

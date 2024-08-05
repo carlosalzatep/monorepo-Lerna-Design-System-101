@@ -1,0 +1,46 @@
+{
+  "space": {
+    "inset": {
+      "eighth": {
+        "squished": {
+          "$value": "0 0.125rem"
+        },
+        "stretch": {
+          "$value": "0.25rem 0.125rem"
+        }
+      },
+      "quarter": {
+        "squished": {
+          "$value": "0.125rem 0.25rem"
+        },
+        "stretch": {
+          "$value": "0.5rem 0.25rem"
+        }
+      },
+      "half": {
+        "squished": {
+          "$value": "0.25rem 0.75rem"
+        },
+        "stretch": {
+          "$value": "1rem 0.75rem"
+        }
+      },
+      "three-quarter": {
+        "squished": {
+          "$value": "0.5rem 1.2rem"
+        },
+        "stretch": {
+          "$value": "1.5rem 1.2rem"
+        }
+      },
+      "one": {
+        "squished": {
+          "$value": "0.75rem 1rem"
+        },
+        "stretch": {
+          "$value": "2rem 1rem"
+        }
+      }
+    }
+  }
+}

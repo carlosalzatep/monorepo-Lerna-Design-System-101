@@ -1,0 +1,31 @@
+{
+  "space": {
+    "eighth": {
+      "$value": "0.125rem"
+    },
+    "quarter": {
+      "$value": "0.25rem"
+    },
+    "half": {
+      "$value": "0.5rem"
+    },
+    "three-quarter": {
+      "$value": "0.75rem"
+    },
+    "one": {
+      "$value": "1rem"
+    },
+    "one-and-a-half": {
+      "$value": "1.5rem"
+    },
+    "two": {
+      "$value": "2rem"
+    },
+    "three": {
+      "$value": "3rem"
+    },
+    "four": {
+      "$value": "4rem"
+    }
+  }
+}

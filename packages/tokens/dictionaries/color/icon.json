@@ -1,17 +1,14 @@
 {
   "color": {
-    "text": {
-      "primary": {
+    "icon": {
+      "default": {
         "$value": "{color.base.black.normal}"
       },
-      "secondary": {
-        "$value": "{color.base.gold.normal}"
-      },
-      "tertiary": {
-        "$value": "{color.base.gray.dark}"
-      },
-      "accent": {
+      "emphasis": {
         "$value": "{color.base.purple.normal}"
+      },
+      "link": {
+        "$value": "{color.base.blue.normal}"
       },
       "error": {
         "$value": "{color.base.pink.dark}"

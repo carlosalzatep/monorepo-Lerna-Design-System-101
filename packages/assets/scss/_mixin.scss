@@ -1,0 +1,12 @@
+@mixin font-face($name, $file, $weight: normal, $style: normal) {
+  @font-face {
+    font-family: $name;
+    src: url("#{$file}.otf") format("opentype");
+    font-weight: $weight;
+    font-style: $style;
+  }
+}
+
+// Example usage:
+// @include font-face('Gotham', 'Gotham-Black', 900, normal);
+// @include font-face('Gotham', 'Gotham-BlackItalic', 900, italic);

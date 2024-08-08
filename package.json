@@ -1,30 +1,30 @@
 {
   "name": "@pg.dsp/core",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "Publicis Design System Package",
   "keywords": [],
   "author": "Carlos Alzate",
   "license": "MIT",
   "main": "index.js",
   "private": true,
-  "workspaces": {
-    "packages": [
-      "packages/*",
-      "playgrounds/*"
-    ]
-  },
+  "workspaces": [
+    "./packages/*"
+  ],
   "engines": {
-    "node": ">=20.16.0",
-    "yarn": ">=1.22.22"
+    "node": ">=20.16.0"
   },
   "scripts": {
-    "clean": "yarn lerna clean && lerna run clean",
-    "build": "yarn lerna run build",
-    "format:eslint": "eslint --fix \"**/*.js\"",
-    "format:prettier": "prettier \"**/*.{js,md,mdx}\" \"package.json\" --write"
+    "clean": "npx lerna clean && lerna run clean && rm -rf node_modules",
+    "build": "npx lerna run build",
+    "lint": "npx lerna run lint",
+    "lint:fix": "npx lerna run lint:fix",
+    "format": "npx lerna run format",
+    "format:fix": "npx lerna run format:fix",
+    "prepare": "husky install",
+    "precommit": "npx lerna run precommit"
   },
   "devDependencies": {
-    "lerna": "^8.1.6"
-  },
-  "packageManager": "yarn@1.22.22"
+    "husky": "^8.0.3",
+    "lerna": "^8.1.8"
+  }
 }

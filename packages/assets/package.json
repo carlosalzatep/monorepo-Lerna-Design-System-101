@@ -1,0 +1,16 @@
+{
+  "name": "@pg.dsp/assets",
+  "version": "0.0.1",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "font",
+    "gotham"
+  ],
+  "author": "",
+  "license": "ISC",
+  "description": "A npm module for Gotham Font"
+}

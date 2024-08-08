@@ -1,22 +1,32 @@
-import { defineConfig } from "vite";
-import react from "@vitejs/plugin-react";
-import sass from "sass";
+/// <reference types="vite/client" />
+import { resolve } from 'node:path';
+import { defineConfig } from 'vite';
+import react from '@vitejs/plugin-react';
+import dts from 'vite-plugin-dts';
+import sass from 'sass';
+import autoprefixer from 'autoprefixer';
 
 export default defineConfig({
-  plugins: [react()],
+  plugins: [
+    react(),
+    dts({
+      rollupTypes: true,
+      tsconfigPath: './tsconfig.app.json',
+    }),
+  ],
   build: {
     sourcemap: false,
     lib: {
-      entry: "./src/index.ts",
-      formats: ["es"],
-      fileName: "[name]",
+      entry: resolve(__dirname, 'src/index.ts'),
+      formats: ['es'],
+      fileName: '[name]',
     },
     cssCodeSplit: true,
     rollupOptions: {
-      external: ["react", "react-dom"],
+      external: ['react', 'react-dom', 'react/jsx-runtime'],
       output: {
         preserveModules: true,
-        preserveModulesRoot: "src",
+        preserveModulesRoot: 'src',
       },
     },
   },
@@ -25,6 +35,9 @@ export default defineConfig({
       scss: {
         implementation: sass,
       },
+    },
+    postcss: {
+      plugins: [autoprefixer({})],
     },
   },
 });

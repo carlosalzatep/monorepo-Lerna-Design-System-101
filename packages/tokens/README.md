@@ -1,15 +1,40 @@
-# Basic Style Dictionary
+# @pg.dsp/tokens
 
-This example code is bare-bones to show you what this framework can do. If you have the style-dictionary module installed globally, you can `cd` into this directory and run:
+## Overview
 
-```bash
-npx style-dictionary build
+This project uses the [Style Dictionary tool](https://amzn.github.io/style-dictionary/#/) to create design tokens and export them to various formats including CSS, SCSS, Figma (UI Guide for base colors), and JavaScript.
+
+
+## Scripts
+
+**clean:** Removes the dist directory.
+
+```
+npm run clean
+
 ```
 
-Otherwise, install Style Dictionary locally for this project first, `cd` into this directory and run:
+**build:** Cleans the dist directory and builds the tokens using the Style Dictionary configuration.
 
-```bash
-npm init -y && npm install style-dictionary
 ```
+npm run build
+```
+  
 
-and then run the above command.
+## Usage
+After running the build script, the tokens will be available in the dist directory in the specified formats.
+
+
+## Configuration
+The build process is configured using the config.mjs file. You can customize the output formats and token definitions by modifying this file.
+
+
+## Contributing
+Contributions are welcome! Please open an issue or submit a pull request for any changes or improvements.
+
+
+## Acknowledgements
+This project is built using the [Style Dictionary tool](https://amzn.github.io/style-dictionary/#/).
+  
+
+Feel free to customize this README further to suit your project's needs! If you have any other questions or need more help, just let me know. 😊

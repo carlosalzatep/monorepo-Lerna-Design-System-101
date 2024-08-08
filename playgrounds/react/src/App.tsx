@@ -26,17 +26,19 @@ function App() {
         </h2>
         <ul>
           <li>
-              <h3>Button</h3>
-              <ul>
-                <li><PgdsButton label="Example button from @pg.dsp package" /></li>
-                <li><PgdsButton className={['class1', 'class2']} label="Custom style class" /></li>
-              </ul>
+            <h3>Button</h3>
+            <ul>
+              <li>
+                <PgdsButton label="Example button from @pg.dsp package" />
+              </li>
+              <li>
+                <PgdsButton classNames={["class1", "class2"]} label="Custom style class" />
+              </li>
+            </ul>
           </li>
         </ul>
       </section>
-      <p className="footer">
-        Click on the Vite and React logos to learn more
-      </p>
+      <p className="footer">Click on the Vite and React logos to learn more</p>
     </>
   );
 }

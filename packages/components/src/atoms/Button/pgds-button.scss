@@ -1,9 +1,18 @@
-@import "@pg.dsp/tokens/dist/scss/_tokens";
+@use '@pg.dsp/tokens/dist/scss/tokens';
+@use '@pg.dsp/tokens/dist/scss/mixins';
 
 .pgds-button {
-    background-color: $pgds-color-base-gold-light;
-    border: 1px solid $pgds-color-base-gold-normal;
-    color: $pgds-color-base-black-normal;
-    font-size: $pgds-font-size-body-1;
-    padding: 1em;
+  &__wrapper {
+    padding: 0;
+    margin: 0;
+  }
+
+  &__element {
+    @extend %pgds-text-heading-h6;
+
+    background-color: tokens.$pgds-color-button-background-default;
+    border: 1px solid tokens.$pgds-color-button-border-default;
+    color: tokens.$pgds-color-button-text-default;
+    padding: tokens.$pgds-space-inset-half-stretch;
+  }
 }

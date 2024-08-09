@@ -5,10 +5,11 @@
   &__wrapper {
     padding: 0;
     margin: 0;
+    width: fit-content;
   }
 
   &__element {
-    @extend %pgds-text-heading-h6;
+    @extend %pgds-text-heading-h5;
 
     background-color: tokens.$pgds-color-button-background-default;
     border: 1px solid tokens.$pgds-color-button-border-default;

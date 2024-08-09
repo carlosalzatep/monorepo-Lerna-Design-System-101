@@ -1,9 +1,11 @@
 {
   "name": "@pg.dsp/tokens",
   "version": "0.0.1",
-  "main": "index.js",
   "license": "MIT",
   "type": "module",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "clean": "rm -rf dist",
     "build": "npm run clean && style-dictionary build --config ./config.mjs"

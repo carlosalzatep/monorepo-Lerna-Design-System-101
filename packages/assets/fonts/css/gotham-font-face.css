@@ -1,90 +1,90 @@
 @font-face {
   font-family: 'Gotham';
-  src: url('../fonts/Gothan/Gotham-Black.otf') format('opentype');
+  src: url('../Gothan/Gotham-Black.otf') format('opentype');
   font-weight: 900;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Gotham';
-  src: url('../fonts/Gothan/Gotham-BlackItalic.otf') format('opentype');
+  src: url('../Gothan/Gotham-BlackItalic.otf') format('opentype');
   font-weight: 900;
   font-style: italic;
 }
 
 @font-face {
   font-family: 'Gotham';
-  src: url('../fonts/Gothan/Gotham-Bold.otf') format('opentype');
+  src: url('../Gothan/Gotham-Bold.otf') format('opentype');
   font-weight: 700;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Gotham';
-  src: url('../fonts/Gothan/Gotham-Book.otf') format('opentype');
+  src: url('../Gothan/Gotham-Book.otf') format('opentype');
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Gotham';
-  src: url('../fonts/Gothan/Gotham-BookItalic.otf') format('opentype');
+  src: url('../Gothan/Gotham-BookItalic.otf') format('opentype');
   font-weight: 400;
   font-style: italic;
 }
 
 @font-face {
   font-family: 'Gotham';
-  src: url('../fonts/Gothan/Gotham-Light.otf') format('opentype');
+  src: url('../Gothan/Gotham-Light.otf') format('opentype');
   font-weight: 300;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Gotham';
-  src: url('../fonts/Gothan/Gotham-Medium.otf') format('opentype');
+  src: url('../Gothan/Gotham-Medium.otf') format('opentype');
   font-weight: 500;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Gotham';
-  src: url('../fonts/Gothan/Gotham-MediumItalic.otf') format('opentype');
+  src: url('../Gothan/Gotham-MediumItalic.otf') format('opentype');
   font-weight: 500;
   font-style: italic;
 }
 
 @font-face {
   font-family: 'Gotham';
-  src: url('../fonts/Gothan/Gotham-ThinItalic.otf') format('opentype');
+  src: url('../Gothan/Gotham-ThinItalic.otf') format('opentype');
   font-weight: 100;
   font-style: italic;
 }
 
 @font-face {
   font-family: 'Gotham';
-  src: url('../fonts/Gothan/Gotham-Ultra.otf') format('opentype');
+  src: url('../Gothan/Gotham-Ultra.otf') format('opentype');
   font-weight: 800;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Gotham';
-  src: url('../fonts/Gothan/Gotham-UltraItalic.otf') format('opentype');
+  src: url('../Gothan/Gotham-UltraItalic.otf') format('opentype');
   font-weight: 800;
   font-style: italic;
 }
 
 @font-face {
   font-family: 'Gotham';
-  src: url('../fonts/Gothan/Gotham-XLight.otf') format('opentype');
+  src: url('../Gothan/Gotham-XLight.otf') format('opentype');
   font-weight: 200;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Gotham';
-  src: url('../fonts/Gothan/Gotham-XLightItalic.otf') format('opentype');
+  src: url('../Gothan/Gotham-XLightItalic.otf') format('opentype');
   font-weight: 200;
   font-style: italic;
 }

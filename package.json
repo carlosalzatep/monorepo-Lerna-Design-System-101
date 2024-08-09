@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "Publicis Design System Package",
   "keywords": [],
-  "author": "Carlos Alzate",
+  "author": "PGD",
   "license": "MIT",
   "main": "index.js",
   "private": true,
@@ -14,17 +14,21 @@
     "node": ">=20.16.0"
   },
   "scripts": {
-    "clean": "npx lerna clean && lerna run clean && rm -rf node_modules",
     "build": "npx lerna run build",
-    "lint": "npx lerna run lint",
-    "lint:fix": "npx lerna run lint:fix",
-    "format": "npx lerna run format",
+    "clean": "npx lerna clean && lerna run clean && rm -rf node_modules",
     "format:fix": "npx lerna run format:fix",
+    "format": "npx lerna run format",
+    "lint:fix": "npx lerna run lint:fix",
+    "lint": "npx lerna run lint",
+    "precommit": "npx lerna run precommit",
     "prepare": "husky install",
-    "precommit": "npx lerna run precommit"
+    "prepublishOnly": "npm run build",
+    "watch": "npx lerna watch -- lerna run build --scope=\\$LERNA_PACKAGE_NAME"
   },
   "devDependencies": {
     "husky": "^8.0.3",
-    "lerna": "^8.1.8"
-  }
+    "lerna": "^8.1.8",
+    "nx": "^19.4.3"
+  },
+  "packageManager": "yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e"
 }

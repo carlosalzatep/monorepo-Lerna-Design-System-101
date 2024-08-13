@@ -9,11 +9,16 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": "https://github.com/carlosalzatep/monorepo-Lerna-Design-System-101",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://npm.pkg.github.com"
+  },
   "keywords": [
     "font",
     "gotham"
   ],
   "author": "",
   "license": "ISC",
-  "description": "A npm module for Gotham Font"
+  "description": "A npm module for Gotham Font",
+  "gitHead": "bdeca12885e1e7ad8eabd41182224bc0fa29c466"
 }

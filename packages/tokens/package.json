@@ -11,7 +11,12 @@
     "build": "npm run clean && style-dictionary build --config ./config.mjs"
   },
   "repository": "https://github.com/carlosalzatep/monorepo-Lerna-Design-System-101",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://npm.pkg.github.com"
+  },
   "devDependencies": {
     "style-dictionary": "^4.0.1"
-  }
+  },
+  "gitHead": "bdeca12885e1e7ad8eabd41182224bc0fa29c466"
 }

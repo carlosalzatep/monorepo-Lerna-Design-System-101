@@ -4,5 +4,10 @@
   "packages": [
     "packages/*"
   ],
+  "command": {
+    "publish": {
+      "registry": "https://npm.pkg.github.com/"
+    }
+  },
   "stream": true
 }

@@ -1,4 +1,4 @@
-# @bypgd.dsp/tokens
+# @pgdp/tokens
 
 ## Overview
 

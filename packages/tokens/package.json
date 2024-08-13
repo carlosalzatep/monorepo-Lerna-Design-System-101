@@ -1,5 +1,5 @@
 {
-  "name": "@bypgd.dsp/tokens",
+  "name": "@pgdp/tokens",
   "version": "0.1.4",
   "license": "MIT",
   "type": "module",
@@ -18,5 +18,5 @@
   "devDependencies": {
     "style-dictionary": "^4.0.1"
   },
-  "gitHead": "bdeca12885e1e7ad8eabd41182224bc0fa29c466"
+  "gitHead": "fcd300c003a89107de4df6aa56c0889eb762c32b"
 }

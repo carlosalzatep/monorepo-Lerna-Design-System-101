@@ -1,5 +1,5 @@
 {
-  "name": "@bypgd.dsp/components",
+  "name": "@pgdp/components",
   "version": "0.1.4",
   "type": "module",
   "main": "dist/index.js",
@@ -62,5 +62,5 @@
     "vite": "^5.4.0",
     "vite-plugin-dts": "^3.9.1"
   },
-  "gitHead": "bdeca12885e1e7ad8eabd41182224bc0fa29c466"
+  "gitHead": "fcd300c003a89107de4df6aa56c0889eb762c32b"
 }

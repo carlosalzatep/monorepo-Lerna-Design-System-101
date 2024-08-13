@@ -1,6 +1,6 @@
 {
   "name": "@bypgd.dsp/assets",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "type": "module",
   "files": [
     "fonts"
@@ -8,6 +8,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": "https://github.com/carlosalzatep/monorepo-Lerna-Design-System-101",
   "keywords": [
     "font",
     "gotham"

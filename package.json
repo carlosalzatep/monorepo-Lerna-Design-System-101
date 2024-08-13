@@ -1,6 +1,6 @@
 {
   "name": "@bypgd.dsp/core",
-  "version": "0.0.2",
+  "version": "0.1.1",
   "description": "WIP: Publicis Design System Package",
   "keywords": [],
   "author": "PGD",
@@ -24,6 +24,9 @@
     "prepare": "husky install",
     "prepublishOnly": "npm run build",
     "watch": "npx lerna watch -- lerna run build --scope=\\$LERNA_PACKAGE_NAME"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   },
   "devDependencies": {
     "husky": "^8.0.3",

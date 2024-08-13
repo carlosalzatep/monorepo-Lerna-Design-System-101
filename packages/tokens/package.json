@@ -1,6 +1,6 @@
 {
   "name": "@bypgd.dsp/tokens",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "license": "MIT",
   "type": "module",
   "files": [
@@ -10,6 +10,7 @@
     "clean": "rm -rf dist",
     "build": "npm run clean && style-dictionary build --config ./config.mjs"
   },
+  "repository": "https://github.com/carlosalzatep/monorepo-Lerna-Design-System-101",
   "devDependencies": {
     "style-dictionary": "^4.0.1"
   }

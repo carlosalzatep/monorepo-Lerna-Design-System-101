@@ -2,8 +2,8 @@ import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 
 // Publicis Groupe Design System Components
-import { PgdsButton } from "@pg.dsp/components";
-import "@pg.dsp/components/dist/atoms/Button/pgds-button.css";
+import { PgdsButton } from "@bypgd.dsp/components";
+import "@bypgd.dsp/components/dist/atoms/Button/pgds-button.css";
 
 // Local styles
 import "./App.css";
@@ -29,7 +29,7 @@ function App() {
             <h3>Button</h3>
             <ul>
               <li>
-                <PgdsButton label="Example button from @pg.dsp package" />
+                <PgdsButton label="Example button from @bypgd.dsp package" />
               </li>
               <li>
                 <PgdsButton classNames={["class1", "class2"]} label="Custom style class" />

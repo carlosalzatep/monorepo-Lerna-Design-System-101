@@ -1,4 +1,4 @@
-# @pg.dsp/core
+# @bypgd.dsp/core
 
 ## Overview
 **Publicis Design System Package** is a monorepo containing various packages that form the core of the Publicis Design System. This repository is managed using Lerna and Husky.
